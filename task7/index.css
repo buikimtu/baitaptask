@@ -181,31 +181,31 @@ header .sign-in {
   background-color: #96c67f;
   opacity: 0.8;
 }
-.people {
+.box {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 100px;
 }
-.people img {
+.box img {
   width: 295px;
   height: 350px;
   border-radius: 15px 15px 0 0;
   object-fit: cover;
   /* margin-bottom: 20px; */
 }
-.people-content {
+.box-content {
   background-color: #fff;
   border-radius: 15px;
 }
-.people-content .content-title {
+.box-content .content-title {
   padding: 20px;
 }
-.people-content .content-title h4 {
+.box-content .content-title h4 {
   font-size: 20px;
   font-weight: 500;
 }
-.people-content .content-title p {
+.box-content .content-title p {
   font-size: 16px;
   font-weight: 400;
   color: #9b948e;
