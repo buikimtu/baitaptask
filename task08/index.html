@@ -14,19 +14,19 @@
         const BMI = weight / height ** 2;
         switch (true) {
           case BMI > 18:
-            console.log("Thiếu cân");
+            alert("Thiếu cân");
             break;
           case BMI >= 18.5 && BMI < 23:
-            console.log("Bình thường");
+            alert("Bình thường");
             break;
           case BMI >= 18.5 && BMI < 23:
-            console.log("Bình thường");
+            alert("Bình thường");
             break;
           case BMI >= 23 && BMI < 25:
-            console.log("Bình thường");
+            alert("Bình thường");
             break;
           default:
-            console.log("béo");
+            alert("béo");
         }
       }
       calcBMI(weight, height);
