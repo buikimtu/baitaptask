@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let a = parseFloat(prompt("Nhập a"));
+      let b = parseFloat(prompt("Nhập b"));
+      let c = parseFloat(prompt("Nhập c"));
+      function isTriangle(a, b, c) {
+        // Kiểm tra ba điều kiện tam giác
+        return a + b > c && a + c > b && b + c > a;
+      }
+
+      // Test cases:
+      console.log(isTriangle(a, b, c)); // true
+    </script>
+  </body>
+</html>
